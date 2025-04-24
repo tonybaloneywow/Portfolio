@@ -1,5 +1,38 @@
-.background {
+body {
+    background-image: url('/backgrounds/Background.png');
+    background-color: #cccccc;
+    background-size: 100% 100%;
     width: 100vw;
     height: 100vh;
-    background-image: url(/images/HOME\ -\ MacBook\ Pro\ 16_.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+* {
+    margin: 0;
+}
+
+.logo {
+    font-family: 'Irish Grover', cursive;
+    font-size: 65px;
+    color: #536693;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.navigation {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 45px;
+    display: flex;
+    gap: 72px;
+    margin-top: -57px;
+    margin-left: 900px;
+}
+
+.home {
+    border-radius: 10px;
+    height: 5px;
+    width: 135px;
+    box-shadow: 0 45px 0 0 #93B7EF;
 }
