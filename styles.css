@@ -1,13 +1,3 @@
-body {
-    background-image: url('/backgrounds/Background.png');
-    background-color: #cccccc;
-    background-size: 100% 100%;
-    width: 100vw;
-    height: 100vh;
-    background-repeat: no-repeat;
-    z-index: 1;
-}
-
 * {
     margin: 0;
 }
@@ -21,18 +11,59 @@ body {
     display: inline-block;
 }
 
-.navigation {
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 45px;
-    display: flex;
-    gap: 72px;
-    margin-top: -57px;
-    margin-left: 900px;
-}
-
-.home {
+.homeunderline {
     border-radius: 10px;
     height: 5px;
     width: 135px;
     box-shadow: 0 45px 0 0 #93B7EF;
+}
+.aboutunderline {
+    border-radius: 10px;
+    height: 5px;
+    width: 150px;
+    box-shadow: 0 45px 0 0 #93B7EF;
+}
+
+.contactunderline {
+    border-radius: 10px;
+    height: 5px;
+    width: 206px;
+    box-shadow: 0 45px 0 0 #93B7EF;
+}
+
+.textabout {
+    font-family: 'Jost', sans-serif;
+    font-size: 45px;
+    font-weight: 200;
+    transform: translate(60px, 240px);
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    display: flex;
+    z-index: 5;
+}
+
+.titleabout {
+    font-family: 'Jomhuria', serif;
+    font-size: 200px;
+    text-shadow: 5px 15px #D9DEE5;
+    transform: translate(60px, 140px);
+    display: flex;
+    z-index: 4;
+}
+.titlewelcome {
+    font-family: 'Jomhuria', serif;
+    font-size: 315px;
+    text-shadow: 5px 15px #D9DEE5;
+    transform: translate(75px, 400px);
+    display: flex;
+}
+
+.pfphome {
+    transform: translate(65px, -200px);
+}
+
+.pictureofme {
+    transform: translate(1250px, -275px);
+    display: flex;
 }
