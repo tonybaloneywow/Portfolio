@@ -67,3 +67,76 @@
     transform: translate(1250px, -275px);
     display: flex;
 }
+
+.buttonsubmit {
+    background-color: #536693;
+    border: none;
+    color: white;
+    padding: 15px 74px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 42px;
+    font-weight: 100;
+    border-radius: 87px;
+    cursor:pointer;
+    transform: translate(152px, 0px);
+  }
+
+  .contact-container {
+    height: 100vh;
+    display: flex;
+    transform: translate(1000px, 200px);
+    z-index: 1;
+    position: relative;
+  }
+
+  .contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
+
+  .contact-inputs {
+    width: 600px;
+    height: 55px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    border-radius: 12px;
+    border-color: black;
+    border: 2px solid black;
+    outline: none;
+    color: black;
+  }
+
+  .contact-inputs-message {
+    width: 600px;
+    height: 220px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    border-radius: 12px;
+    border-color: black;
+    color: black;
+    resize: none;
+    border-width: 2px 2px;
+    outline: none;
+  }
+
+  .box {
+    width: 700px;
+    height: 700px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-color: black;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    z-index: 0;
+    transform: translate(935px, 65px);
+    border-radius: 10px;
+  }

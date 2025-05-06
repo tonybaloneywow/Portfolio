@@ -25,6 +25,7 @@
         .navigation {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 45px;
+    font-weight: 100;
     display: flex;
     gap: 72px;
     margin-top: -57px;
@@ -53,4 +54,15 @@
         </span>
         
     </p>
+    <div class="box"></div>
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <input type="hidden" name="access_key" value="54a03cea-d8bc-4269-a88c-f567e52bdabb">
+                <input type="text" name="name" placeholder="Full Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="E-Mail" class="contact-inputs" required>
+                <textarea name="message" placeholder="Message" class="contact-inputs-message" required></textarea>
+                <button class="buttonsubmit" type="submit">Submit</button>
+            </form>
+            <div class="contact-right"></div>
+        </div>
 </body>
