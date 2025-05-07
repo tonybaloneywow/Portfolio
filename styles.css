@@ -11,6 +11,8 @@
     display: inline-block;
 }
 
+
+
 .homeunderline {
     border-radius: 10px;
     height: 5px;
@@ -139,4 +141,47 @@
     z-index: 0;
     transform: translate(935px, 65px);
     border-radius: 10px;
+  }
+
+  .boxtransparency {
+    opacity: 0.8;
+  }
+
+  .titlecontact {
+    font-family: 'Jomhuria', serif;
+    font-size: 200px;
+    text-shadow: 5px 15px #D9DEE5;
+    display: flex;
+    transform: translate(100px, -910px)
+  }
+
+  .minititlecontact {
+    font-family: 'Jomhuria', serif;
+    font-size: 100px;
+    text-shadow: 5px 15px #D9DEE5;
+    display: flex;
+    transform: translate(110px, -945px);
+  }
+
+  .textcontact {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 30px;
+    display: flex;
+    transform: translate(108px, -825px);
+    line-height: 75px;
+  }
+
+  .workunderline {
+    border-radius: 10px;
+    height: 5px;
+    width: 136px;
+    box-shadow: 0 45px 0 0 #93B7EF;
+  }
+
+  .titlework {
+    font-family: 'Jomhuria', serif;
+    font-size: 200px;
+    text-shadow: 5px 15px #D9DEE5;
+    display: flex;
+    transform: translate(60px,45px)
   }
