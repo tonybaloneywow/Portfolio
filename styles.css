@@ -197,11 +197,44 @@
   }
 
   .mylanguages {
-    transform: translate(65px, 190px);
+    transform: translate(63px, 190px);
   }
 
   .titlecontact,
 .minititlecontact,
 .textcontact {
     pointer-events: none;
+}
+
+.previousworks {
+  transform: translate(410px, 190px);
+}
+
+.skillset {
+  transform: translate(678px, 190px);
+}
+
+html, body {
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.mylanguagetypes {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 34px;
+  transform: translate(63px, 220px);
+  display: flex;
+  line-height: 60px;
+}
+
+.xsquare {
+  transform: translate(801px, 50px);
+  display: flex;
+}
+
+.mycodinglanguages {
+  transform: translate(1293px, -172px);
+  display: flex;
 }
